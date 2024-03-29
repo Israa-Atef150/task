@@ -1,0 +1,64 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: italic;
+
+}
+
+/*
+
+    font-style: oblique vs italic
+    --->يستخدم تصميم الخط الطبيعي لتمثيل"italic"   النص المائل 
+    ---> بينما "oblique" يستخدم الميل الاصطناعي لتمثيل النص المائل 
+*/
+
+p {
+    line-height: 3;
+}
+
+/*text-decoration*/
+a {
+    text-decoration: dashed;
+
+}
+
+/* how to make two shadows */
+.es {
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 30px;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 1px #ff0000, 0px -5px yellow;
+}
+
+/*css units*/
+h2 {
+    font-size: 20px;
+
+}
+
+h3 {
+    background-color: black;
+    width: 100%;
+    font-size: 4rem;
+}
+
+/* text-wrap: يوجد  الكثير من القيم 
+من امثلتها "balance": بيعمل توازن لبن السطور وبعض لو في اكتر من سطر  بيحول يقربهم من بعض و الي حد ما قد بعض 
+"wrap ":بيخلي الكلام ينزل تحت في  وده الطبيعي اصلا 
+"nowrap": بيخلي الكلام يطلع برة المحتوي عادي 
+*/
+div {
+    background-color: #618297;
+    width: 700px;
+    text-wrap: balance;
+}
+
+.e {
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 30px;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 1px #ff0000, 0px -5px yellow;
+}
